@@ -1,0 +1,8 @@
+version: '3'
+services:
+  image: todogamma:latest
+  container_name: gamma-api
+  ports:
+  - "80:80"
+  environment:
+  - ASPNETCORE=http://+:80
